@@ -5,6 +5,10 @@ intents:
 - deny
 - joke
 - name
+- 注册
+- 价格
+- 黑名单
+- 吃火锅
 
 
 entities:
@@ -22,6 +26,10 @@ actions:
 - utter_greet
 - utter_goodbye
 - action_joke
+- utter_注册
+- utter_价格
+- utter_黑名单
+- utter_吃火锅
 
 
 templates:
@@ -33,7 +41,19 @@ templates:
 
   utter_goodbye:
   - text: "Talk to you later!"
-  
+
   utter_thanks:
   - text: "My pleasure."
-  
+
+  utter_注册:
+  - text: "注册方式如下。。。"
+  - text: "开通方式2如下。。。"
+
+  utter_价格:
+  - text: "短信价格如下。。。"
+
+  utter_黑名单:
+  - text: "黑名单如下。。。"
+
+  utter_吃火锅:
+  - text: "火锅店如下。。。"

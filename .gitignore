@@ -2,3 +2,8 @@ __pycache__
 env/
 
 rasa_core.log
+
+venv
+.idea
+models
+total_word_feature_extractor_zh.dat

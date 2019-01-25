@@ -30,3 +30,19 @@
  - utter_thanks
 * goodbye
  - utter_goodbye 
+ 
+## 价格
+* 价格
+ - utter_价格
+ 
+## 注册
+* 注册
+ - utter_注册
+
+## 吃火锅
+* 吃火锅
+ - utter_吃火锅
+
+## 黑名单
+* 黑名单
+ - utter_黑名单
