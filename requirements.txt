@@ -32,7 +32,7 @@ rasa-core-sdk~=0.12.1
 rasa_core~=0.12.0
 pymongo==3.5.1
 python-dateutil==2.7.3
-spacy==2.0.11
+spacy==2.0.12
 sklearn_crfsuite==0.3.6
 msgpack==0.5.6
 git+https://github.com/mit-nlp/MITIE.git#egg=mitie
