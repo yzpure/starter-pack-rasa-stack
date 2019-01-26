@@ -39,3 +39,6 @@ action-server:
 nlu-server:
 	python -m rasa_nlu.server -c nlu_config.yml --path models
 
+train-interactive:
+	python -m rasa_core.train interactive --core models/current/dialogue --nlu models/current/nlu --endpoints endpoints.yml
+
