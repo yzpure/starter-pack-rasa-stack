@@ -30,7 +30,7 @@ ul_length = ul_nodes.length
 
 pp "h2_length: #{h2_length}, ul_length: #{ul_length}"
 
-output_folder = "testcase-output"
+output_folder = File.join("testcase-output", "positive")
 FileUtils.mkdir_p output_folder
 output_file = File.join(output_folder, "#{DateTime.now.strftime('%Y%m%d%H%M%S')}.csv")
 

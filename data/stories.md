@@ -3,17 +3,14 @@
 * 新用户注册
  - utter_新用户注册
 
-    
 ## story_短信价格
 * 短信价格
  - utter_短信价格
 
-    
 ## story_短信字数
 * 短信字数
  - utter_短信字数
 
-    
 ## story_高级用户保底消费
 * 高级用户保底消费
  - utter_高级用户保底消费
@@ -27,11 +24,6 @@
 ## story_短信限制问题
 * 短信限制问题
  - utter_短信限制问题
-
-    
-## story_新用户云片短信设置教程
-* 新用户云片短信设置教程
- - utter_新用户云片短信设置教程
 
     
 ## story_发送号码是什么是三网合一的吗
@@ -52,12 +44,6 @@
 ## story_短信记录接收成功对方没收到短信
 * 短信记录接收成功对方没收到短信
  - utter_短信记录接收成功对方没收到短信
-
-    
-## story_普通用户高级用户区别
-* 普通用户高级用户区别
- - utter_普通用户高级用户区别
-
     
 ## story_邀评
 * 邀评
@@ -69,14 +55,14 @@
  - utter_条数计费
 
     
-## story_为什么返回_HTTP_Status_405_-_Method_Not_Allowed
-* 为什么返回_HTTP_Status_405_-_Method_Not_Allowed
- - utter_为什么返回_HTTP_Status_405_-_Method_Not_Allowed
+## story_为什么返回HTTPStatus405-MethodNot_Allowed
+* 为什么返回HTTPStatus405-MethodNot_Allowed
+ - utter_为什么返回HTTPStatus405-MethodNot_Allowed
 
     
-## story_为什么返回_HTTP_Status_406_Not_acceptable
-* 为什么返回_HTTP_Status_406_Not_acceptable
- - utter_为什么返回_HTTP_Status_406_Not_acceptable
+## story_为什么返回HTTPStatus406Not_acceptable
+* 为什么返回HTTPStatus406Not_acceptable
+ - utter_为什么返回HTTPStatus406Not_acceptable
 
     
 ## story_开头语
@@ -272,11 +258,6 @@
 ## story_apikey重置
 * apikey重置
  - utter_apikey重置
-
-    
-## story_密保手机变更问题
-* 密保手机变更问题
- - utter_密保手机变更问题
 
     
 ## story_发票问题
@@ -764,15 +745,9 @@
  - utter_退款打款账户不一致
 
     
-## story_接受成功但是客户没收到短信
-* 接受成功但是客户没收到短信
- - utter_接受成功但是客户没收到短信
-
-    
 ## story_云片IP和端口多少
 * 云片IP和端口多少
  - utter_云片IP和端口多少
-
     
 ## story_批量发送的并发量多少
 * 批量发送的并发量多少
@@ -803,4 +778,33 @@
 * 报错415
  - utter_报错415
 
-    
+## story_上行短信
+* 上行短信
+ - utter_上行短信
+## story_企业名称变更
+* 企业名称变更
+ - utter_企业名称变更
+## story_参数位数限制
+* 参数位数限制
+ - utter_国际短信价格
+## story_国际短信价格
+* 国际短信价格
+ - utter_国际短信价格
+## story_注册资质认证
+* 注册资质认证
+ - utter_注册资质认证
+## story_短信发送失败排查
+* 短信发送失败排查
+ - utter_短信发送失败排查
+## story_短信发送类型
+* 短信发送类型
+ - utter_短信发送类型
+## story_短信延迟问题排查
+ - utter_短信延迟问题排查
+* 短信延迟问题排查
+## story_营销云在线导入
+ - utter_营销云在线导入
+* 营销云在线导入
+## story_营销云开通
+* 营销云开通
+ - utter_营销云开通  
