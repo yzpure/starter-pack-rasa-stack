@@ -362,7 +362,7 @@
 - 语音验证码内容可自定义吗
     
 
-## intent:透传号码是什么_display_num_即显示号码
+## intent:透传号码是什么displaynum即显示号码
 - 透传号码是什么
 - display num 是什么
 - 显示号码是什么

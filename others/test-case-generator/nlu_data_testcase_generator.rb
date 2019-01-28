@@ -36,7 +36,8 @@ output_file = File.join(output_folder, "#{DateTime.now.strftime('%Y%m%d%H%M%S')}
 
 def test(content)
   # Run Test Case
-  url = URI("http://localhost:5000/parse?project=current&model=nlu&q=#{URI::encode(content)}")
+  # url = URI("http://192.168.60.80:5000/parse?project=current&model=nlu&q=#{URI::encode(content)}")
+  url = URI("http://127.0.0.1:5000/parse?project=current&model=nlu&q=#{URI::encode(content)}")
   http = Net::HTTP.new(url.host, url.port)
   request = Net::HTTP::Get.new(url)
   request["content-type"] = 'application/json;charset=utf-8;'
@@ -52,14 +53,15 @@ open output_file, 'w' do |f|
 
   while current_h2 < h2_length - 1 and current_ul < ul_length - 1
     intent_content = h2_nodes[current_h2].content.split(':')[1]
+    pp intent_content
 
     ul_nodes[current_ul].search("li").each do |li|
       question = li.content
       raw_result = test(question)
       result = JSON.parse(raw_result)
-      puts result
+      # puts result
       result_intent_node = result['intent']
-      puts result_intent_node
+      # puts result_intent_node
       result_intent = result_intent_node['name']
       result_match = result_intent.eql? intent_content
       result_confidence = result_intent_node['confidence']

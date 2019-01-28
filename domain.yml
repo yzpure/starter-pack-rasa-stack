@@ -210,7 +210,7 @@ actions:
 - utter_语音验证码的价格
 - utter_语言验证码怎么接入
 - utter_语言验证码可以发自定义内容吗
-- utter_透传号码是什么_display_num_即显示号码
+- utter_透传号码是什么displaynum即显示号码
 - utter_语音__返回码106是什么意思
 - utter_邮件处理时效
 - utter_账号变更问题
@@ -484,7 +484,7 @@ templates:
       两个接口都可以用的。
   utter_语言验证码可以发自定义内容吗:
   - text: 不支持。
-  utter_透传号码是什么_display_num_即显示号码:
+  utter_透传号码是什么displaynum即显示号码:
   - text: 直呼到用户手机上显示的号码，默认是号码池的随机号。不支持自定义。
   utter_语音__返回码106是什么意思:
   - text: 透传号码未报备导致的  （ 透传号码=display_num=4000812798）
