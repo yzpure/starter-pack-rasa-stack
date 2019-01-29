@@ -2,3 +2,7 @@ __pycache__
 env/
 
 rasa_core.log
+
+.idea
+venv
+models
