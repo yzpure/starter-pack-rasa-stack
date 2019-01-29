@@ -31,7 +31,7 @@
 * goodbye
  - utter_goodbye 
 
-## just newsletter + confirm
+## just newsletter + deny
 * signup_newsletter
  - utter_greet
  - utter_ask_email
@@ -41,8 +41,22 @@
  - utter_ask_confirm
 * deny
  - utter_not_subscribe
-* deny
- - utter_not_subscribe
+ - utter_goodbye
+
+## just newsletter + affirm
+* signup_newsletter
+ - utter_greet
+ - utter_ask_email
+* enter_data{"email": "maxmeier@firma.de"} OR enter_data{"number":"1"}
+ - action_store_email
+ - slot{"email": "maxmeier@firma.de"}
+ - utter_ask_confirm
 * affirm
  - action_perform_signup
  - utter_goodbye
+
+## just greet
+* affirm
+ - utter_greet
+* deny
+ - utter_greet
