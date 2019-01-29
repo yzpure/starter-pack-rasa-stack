@@ -117,7 +117,7 @@
 - 接口返回错误码405
     
 
-## intent:为什么返回_HTTP_Status_406_Not_acceptable
+## intent: 为什么返回HTTPStatus406Not_acceptable
 - 为什么返回406
 - http 406
 - status 406
