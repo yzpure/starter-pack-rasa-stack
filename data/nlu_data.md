@@ -53,12 +53,19 @@
 
 ## intent:affirm
 - yes
+- sure
 - yes sure
 - absolutely
 - for sure
 - yes yes yes
 - definitely
 
+## intent:deny
+- no
+- no
+- I have changed my mind
+- not now
+- maybe later
 
 ## intent:name
 - My name is [Juste](name)  <!--- Square brackets contain the value of entity while the text in parentheses is a a label of the entity --> 
@@ -89,3 +96,21 @@
 - Can you tell jokes?
 - Please tell me a joke
 - I need to hear a joke
+
+## intent:signup_newsletter
+- newsletter
+- signup newsletter
+- subscribe newsletter
+
+## intent:enter_data
+- [me@qipeng.com](email)
+- [yan@gmail.com](email)
+- my email is [yan@gmail.com](email)
+- my email is [hi@gmail.com](email)
+- maxmeier@firma.de
+- bot-fan@bots.com
+- maxmeier@firma.de
+- bot-fan@bots.com
+- my email is email@rasa.com
+- my email is markjobs@ibm.com
+- my email is khardik.kmosu@bol.net.in

@@ -5,7 +5,8 @@ intents:
 - deny
 - joke
 - name
-
+- signup_newsletter
+- enter_data
 
 entities:
 - name
@@ -13,6 +14,8 @@ entities:
 
 slots:
   name:
+    type: text
+  email:
     type: text
 
 
@@ -22,18 +25,30 @@ actions:
 - utter_greet
 - utter_goodbye
 - action_joke
-
+- utter_ask_email
+- action_store_email
+- action_perform_signup
+- utter_ask_confirm
+- utter_not_subscribe
 
 templates:
   utter_name:
   - text: "Hey there! Tell me your name."
 
   utter_greet:
-  - text: "Nice to you meet you {name}. How can I help?"
+  - text: "Nice to you meet you!"
 
   utter_goodbye:
-  - text: "Talk to you later!"
+  - text: "Goodbye!"
   
   utter_thanks:
   - text: "My pleasure."
-  
+
+  utter_ask_email:
+    - text: "What's your email address?"
+
+  utter_ask_confirm:
+    - text: "Are you sure to subscribe?"
+
+  utter_not_subscribe:
+    - text: "We can not send news to your email if you don't agree"

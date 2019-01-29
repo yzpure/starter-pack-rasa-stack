@@ -35,3 +35,6 @@ cmdline:
 	
 action-server:
 	python -m rasa_core_sdk.endpoint --actions actions
+
+nlu-server:
+	python -m rasa_nlu.server -c nlu_config.yml --path models
