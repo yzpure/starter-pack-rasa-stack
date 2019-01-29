@@ -32,6 +32,9 @@ actions:
 - utter_not_subscribe
 
 templates:
+  utter_default:
+    - text: "Sorry, I can't understand that 😂😂😂"
+
   utter_name:
   - text: "Hey there! Tell me your name."
 
